@@ -46,7 +46,7 @@ spring.security.oauth2.client.registration.google.client-secret=YOUR_CLIENT_SECR
 ```
 
 ## 🔓 Bypass OAuth2 for JMeter Testing
-Project allow JMeter to send requests without login, configure your Spring Security to permit access to specific endpoints. For example:
+Project allow JMeter to send requests without login, Spring Security is permit access to specific endpoints. For example:
 .antMatchers("/api/test-jmeter/**").permitAll()
 
 ## 🧱 Limit Tomcat's Thread Capacity to Simulate Load
