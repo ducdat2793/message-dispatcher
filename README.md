@@ -58,12 +58,17 @@ server.tomcat.threads.max=30
 ## 📘 Load Testing with JMeter
 1. Download JMeter Binary version.
 2. Create a Thread Group with the following settings:
+
 Number of Threads: 1000 (1000 match with final variable in Java, using for printing cost time of total request)
 Loop Count:	1
+
 Ramp-up Period:	1 second
+
 3. Add a HTTP Request Sampler for testing:
 POST http://localhost:8080/api/test-jmeter/async?content=Hello
+
 POST http://localhost:8080/api/test-jmeter/sync?content=Hello
+
 4. Use View Results Tree or Summary Report to view timing results.
 5. 📊 Real Test Results (depen on machine)
 API Endpoint | Requests |	Actual Processing Time	| JMeter Response Time
