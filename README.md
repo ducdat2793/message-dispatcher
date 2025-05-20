@@ -75,6 +75,11 @@ POST http://localhost:8080/api/test-jmeter/sync?content=Hello
 API Endpoint | Requests |	Actual Processing Time	| JMeter Response Time
 /api/test-jmeter/sync	1000	~34 seconds	~34 seconds
 /api/test-jmeter/async	1000	~3 seconds	~5 seconds
+| API Endpoint |  Requests | Actual Processing Time |
+|------------|----------------|---------------------|-------------------------|
+| /api/test-jmeter/sync | 1000 | ~34 seconds | ~34 seconds|
+| /api/test-jmeter/async | 1000 | ~3 seconds | ~5 seconds|
+
 
 ## 🧪 Swagger UI
 After logging in via Google, open Swagger:
