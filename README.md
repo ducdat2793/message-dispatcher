@@ -56,7 +56,7 @@ server.tomcat.threads.max=30
 ```
 
 ## 📘 Load Testing with JMeter
-1. Download JMeter Binary version.
+1. Download JMeter [Binary](https://jmeter.apache.org/download_jmeter.cgi) version. 
 2. Create a Thread Group with the following settings:
 
 - Number of Threads: 1000 (1000 match with final variable in Java, using for printing cost time of total request)
