@@ -84,6 +84,7 @@ API Endpoint | Requests |	Actual Processing Time	| JMeter Response Time
 
 ## 🧪 Swagger UI
 After logging in via Google, open Swagger:
+
 http://localhost:8080/swagger-ui.html
 Or
 http://localhost:8080/webjars/swagger-ui/index.html
@@ -109,7 +110,7 @@ docker-machine ip
 ```
 Example output: 192.168.99.100
 
-Then open: http://192.168.99.100:8080/swagger-ui/index.html
+Then open: http://192.168.99.100:8080/swagger-ui/index.html instead of http://localhost:8080/swagger-ui.html
 
 
 
