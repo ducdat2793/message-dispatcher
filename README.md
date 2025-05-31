@@ -87,9 +87,28 @@ http://localhost:8080/swagger-ui.html
 Or
 http://localhost:8080/webjars/swagger-ui/index.html
 
+## 🧪  Build/run Docker Image
+```
+docker build -t my-spring-app .
+docker run -p 8080:8080 my-spring-app
+```
+Now you can go to: http://localhost:8080 and login by google account
+
+
+
 ## 📎 Notes
 Do NOT commit client-id or client-secret to GitHub.
 This project is a simplified demo.
+
+If you are using Docker Toolbox / Docker Quickstart Terminal:
+
+Run this command to get the correct IP:
+```
+docker-machine ip
+```
+Example output: 192.168.99.100
+
+Then open: http://192.168.99.100:8080/swagger-ui/index.html
 
 
 
