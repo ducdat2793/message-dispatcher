@@ -66,6 +66,7 @@ server.tomcat.threads.max=30
 - Ramp-up Period:	1 second
 
 3. Add a HTTP Request Sampler for testing:
+4. 
 POST http://localhost:8080/api/test-jmeter/async?content=Hello
 
 POST http://localhost:8080/api/test-jmeter/sync?content=Hello
